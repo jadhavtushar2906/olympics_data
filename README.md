@@ -8,7 +8,7 @@ At the core of the project is Azure Data Lake Storage, which serves as the centr
 1. Azure Data Lake Storage (ADLS)
 This acts as the foundation for the project, storing all the raw and processed data. ADLS provides high scalability, enabling the system to store large volumes of Olympic data. It supports multiple formats such as CSV, JSON, and Parquet, making it versatile for different types of data input.
 
-2.Azure Data Factory (ADF)
+2. Azure Data Factory (ADF)
 Azure Data Factory orchestrates the movement of data across the system. It schedules and automates the data ingestion from various sources into Azure Data Lake, ensuring that the pipeline runs without manual intervention. ADF also manages the Extract, Transform, Load (ETL) processes, which clean and prepare the data for further analysis.
 
 3. Databricks with Apache Spark
